@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ASM1Example</string>
+    <string name="txt_chaomungban">Chao mung ban,</string>
+    <string name="txt_dangkytaikhoan">Dang ky tai khoan</string>
+    <string name="txt_chaomungbantrolai">Chao mung ban da tro lai,</string>
+    <string name="txt_dangnhap">Vui long dang nhap</string>
+</resources>
