@@ -28,12 +28,19 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent data = new Intent();
-                data.putExtra("number", 18);
-
-                setResult(RESULT_OK, data);
-                finish();
+                onBackPressed();
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        Intent data = new Intent();
+        data.putExtra("number", 18);
+
+        setResult(RESULT_OK, data);
+
+        super.onBackPressed();
     }
 }
